@@ -1,4 +1,4 @@
-# CISC3130 Lab6: Hello-World
+# CISC3130 Lab6: Grade Calculator
 ## Create a grade calculator to calculate your grade for this class.
 
 ---
