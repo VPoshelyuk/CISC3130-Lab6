@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "<p>Final Results</p></br>" +
                     `<p>Hi, ${finalName + finalSec}</p>` +
                     "<h1>Labs Stats:<h1>" + 
-                    `<p>-> There's been only 5 labs so far and your average score is:` + 
+                    `<p>-> There's been only 5 labs so far and your average score is: ` + 
                     `${labsAvg} (Maximum possible is: 1.80 w/o EC)</p>` +
                     labsMissed + labsStats +
                     "<h1>Practice Problems Stats:<h1>" +
