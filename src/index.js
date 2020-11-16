@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     `${labsAvg} (Maximum possible is: 1.80 w/o EC)</p>` +
                     labsMissed + labsStats +
                     "<h1>Practice Problems Stats:<h1>" +
-                    `<p>-> 6 practice problems sets were assigned so far and your average` +
+                    `<p>-> 6 practice problems sets were assigned so far and your average ` +
                     `score is: ${practiceProblemsAvg} (Maximum possible is: 5.33 w/o EC)</p>` +
                     ppsStats +
                     "<h1>Exams Stats:<h1>" + 
