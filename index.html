@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 6: Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Sen&display=swap" rel="stylesheet">
+    <script src="./src/multi-step-form.js"></script>
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <div id="svg_wrap"></div>
+    <h1>CISC3130 Grade Calculator</h1>
+    <section id="personal_info">
+      <p>Personal information</p>
+      <input type="text" id="fname" required="required" placeholder="First Name" />
+      <input type="text" id="lname" required="required" placeholder="Last Name" />
+      <input type="text" id="section" required="required" placeholder="Section" />
+    </section>
+
+    <section id="september">
+      <p>September Grades</p>
+      <input type="number" min=0 max=1 id="lab1" required="required" placeholder="Lab #1" />
+      <input type="number" min=0 max=2 id="lab2" required="required" placeholder="Lab #2" />
+      <input type="number" min=0 max=2 id="pp1" required="required" placeholder="Practice Problems 1" />
+      <input type="number" min=0 max=6 id="pp2" required="required" placeholder="Practice Problems 2" />
+      <input type="number" min=0 max=6 id="pp3" required="required" placeholder="Practice Problems 3" />
+      <input type="number" min=0 max=10 id="exam1" required="required" placeholder="Midterm #1" />
+    </section>
+
+    <section id="october">
+      <p>October Grades</p>
+      <input type="number" min=0 max=2 id="lab3" required="required" placeholder="Lab #3" />
+      <input type="number" min=0 max=2 id="lab4" required="required" placeholder="Lab #4" />
+      <input type="number" min=0 max=6 id="pp4" required="required" placeholder="Practice Problems 4" />
+      <input type="number" min=0 max=6 id="pp5" required="required" placeholder="Practice Problems 5" />
+      <input type="number" min=0 max=10 id="exam2" required="required" placeholder="Midterm #2" />
+    </section>
+
+    <section id="november">
+      <p>November Grades</p>
+      <input type="number" min=0 max=2 id="lab5" required="required" placeholder="Lab #5" />
+      <input type="number" min=0 max=2 id="lab6" required="required" placeholder="Lab #6" />
+      <input type="number" min=0 max=6 id="pp6" required="required" placeholder="Practice Problems 6" />
+      <input type="number" min=0 max=6 id="pp7" required="required" placeholder="Practice Problems 7" />
+    </section>
+
+    <section id="december">
+      <p>December Grades</p>
+      <input type="number" min=0 max=4 id="lab7" required="required" placeholder="Lab #7" />
+      <input type="number" min=0 max=6 id="pp8" required="required" placeholder="Practice Problems 8" />
+      <input type="number" id="exam3" required="required" placeholder="Final Exam" />
+    </section>
+
+    <section id="final_info">
+    </section>
+    <div class="button" id="startOver">Start Over &#8635;</div>
+    <div class="button" id="next">Next &rarr;</div>
+  </body>
+</html>
